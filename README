@@ -1,0 +1,10 @@
+Simply Spring-JPA application that can connect to the database.
+
+Inside application 3 types of datasource are configured and each one is connected to a specific profile:
+- mysql datasource
+- h2 on localhost datasource
+For this we need to start H2 database before. To do it we can use H2 server that will be in maven dependencies:
+cd ~/.m2/repository/com/h2database/h2/1.4.190
+java -cp h2-1.4.190.jar org.h2.tools.Server
+After that web console will be opened and we can start the database. We need to start Generic H2 (Server).
+- in memory H2 datasource - db will be automatically started
