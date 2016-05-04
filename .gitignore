@@ -2,6 +2,7 @@
 .project
 .idea
 *.iml
+*.eml
 .settings
 .directory
 /target
